@@ -1,0 +1,11 @@
+### Get all image analysis results
+GET http://localhost:7071/api/results
+
+
+### Get latest 5 image analysis results
+GET http://localhost:7071/api/results?limit=5
+
+
+### Get one result by ID
+# Replace the ID below with one returned from /api/results
+GET http://localhost:7071/api/results/535763b1-3df8-4d43-a779-2f04bc433e6f
